@@ -18,9 +18,11 @@ class Cinema02: CinemaType01 {
         print("\n第二电影院：")
         let allKeys = Array(items.keys)
         for i in 0..<allKeys.count {
+            
             guard let item = items[allKeys[i]] else {
                 continue
             }
+            
             print(item)
         }
     }
